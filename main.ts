@@ -20,7 +20,7 @@ radio.onReceivedString(function (receivedString) {
     serial.writeString(y)
     serial.writeString(z)
     serial.writeLine("")
-    basic.pause(300)
+    basic.pause(10)
 })
 let lights_on = 0
 let z = ""
